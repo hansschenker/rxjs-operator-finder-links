@@ -1,0 +1,98 @@
+[
+  {
+    "Operator": "map",
+    "category_key": "value-based-first-order",
+    "time_value_key": "value",
+    "further": "projection"
+  },
+  {
+    "Operator": "filter",
+    "category_key": "value-based-first-order",
+    "time_value_key": "value",
+    "further": "filter"
+  },
+  {
+    "Operator": "scan",
+    "category_key": "value-based-first-order",
+    "time_value_key": "value",
+    "further": "stateful"
+  },
+  {
+    "Operator": "toArray",
+    "category_key": "value-based-first-order",
+    "time_value_key": "value",
+    "further": "collect"
+  },
+  {
+    "Operator": "switchMap",
+    "category_key": "value-based-higher-order",
+    "time_value_key": "value",
+    "further": "switch"
+  },
+  {
+    "Operator": "mergeMap",
+    "category_key": "value-based-higher-order",
+    "time_value_key": "value",
+    "further": "merge"
+  },
+  {
+    "Operator": "concatMap",
+    "category_key": "value-based-higher-order",
+    "time_value_key": "value",
+    "further": "queue (concat)"
+  },
+  {
+    "Operator": "exhaustMap",
+    "category_key": "value-based-higher-order",
+    "time_value_key": "value",
+    "further": "exhaust"
+  },
+  {
+    "Operator": "debounceTime",
+    "category_key": "time-based-first-order",
+    "time_value_key": "time",
+    "further": "quiet-period"
+  },
+  {
+    "Operator": "throttleTime",
+    "category_key": "time-based-first-order",
+    "time_value_key": "time",
+    "further": "leading throttle"
+  },
+  {
+    "Operator": "sampleTime",
+    "category_key": "time-based-first-order",
+    "time_value_key": "time",
+    "further": "clocked sampling"
+  },
+  {
+    "Operator": "delay",
+    "category_key": "time-based-first-order",
+    "time_value_key": "time",
+    "further": "delay"
+  },
+  {
+    "Operator": "debounce",
+    "category_key": "time-based-higher-order",
+    "time_value_key": "time",
+    "further": "quiet-period (notifier)"
+  },
+  {
+    "Operator": "throttle",
+    "category_key": "time-based-higher-order",
+    "time_value_key": "time",
+    "further": "leading (notifier)"
+  },
+  {
+    "Operator": "sample",
+    "category_key": "time-based-higher-order",
+    "time_value_key": "time",
+    "further": "sampling (notifier)"
+  },
+  {
+    "Operator": "delayWhen",
+    "category_key": "time-based-higher-order",
+    "time_value_key": "time",
+    "further": "delay (notifier)"
+  }
+]

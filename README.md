@@ -2,7 +2,7 @@
 # rxjs-operator-finder
 
 A tiny web app to locate RxJS operators by **order** (first/higher), **time/value**, and **further** semantics.
-
+This is thought to help users to find the right RxJS operator for their use case.
 ## Dev
 ```bash
 npm install

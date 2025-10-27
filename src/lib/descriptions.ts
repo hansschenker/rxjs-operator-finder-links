@@ -1,10 +1,10 @@
 
 export const operatorDescriptions: Record<string, string> = {
-  map: "Transform each value with a projection function.",
-  filter: "Pass only values that match a predicate.",
-  scan: "Accumulate state and emit each step (like reduce over time).",
+  map: "Transform with a projection function.",
+  filter: "Limit with a predicate function",
+  scan: "Accumulate with each step intermediatestate",
   toArray: "Collect all values into a single array on completion.",
-  switchMap: "Map to an inner and switch to the latest (cancel previous).",
+  switchMap: "Unsubscribe from pevous sourceMap to an inner and switch to the latest",
   mergeMap: "Map to inners and merge concurrently.",
   concatMap: "Map to inners and queue them (one at a time, ordered).",
   exhaustMap: "Map to an inner; ignore new triggers while it’s active.",

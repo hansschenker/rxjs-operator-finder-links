@@ -69,6 +69,7 @@ export default function App() {
 
   return (
     <div className="wrap">
+      <a href="https://hansschenker.github.io" style={{fontFamily:"ui-monospace,monospace",fontSize:"12.5px",color:"var(--muted)",textDecoration:"none",display:"inline-block",marginBottom:"16px"}}>&larr; hansschenker.github.io</a>
       <div className="title">RxJS Operator Finder</div>
       <div className="sub">
         Pick <span className="pill">order</span> and <span className="pill">time/value</span> (required). Optionally refine with <span className="pill">further</span>.
@@ -145,6 +146,7 @@ export default function App() {
 
       <footer>
         Links open the official RxJS API (rxjs.dev). Some legacy names may redirect to modern equivalents.
+         ·  <a href="https://hansschenker.github.io" style={{color:"var(--muted)",textDecoration:"none"}}>&larr; hansschenker.github.io</a>
       </footer>
     </div>
   )
